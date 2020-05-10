@@ -11,21 +11,21 @@ function App() {
       <h1 className="heading">My Contacts</h1>
       <Card 
         name= {contacts[0].name}
-        imgURL="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
-        phone= "+123 456 789"
-        email= "b@beyonce.com"
+        imgURL={contacts[0].imgURL}
+        phone= {contacts[1].phone}
+        email= {contacts[1].email}
       />
       <Card 
         name= {contacts[1].name}
-        imgURL="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
-        phone= "+123 456 789"
-        email= "b@beyonce.com"
+        imgURL={contacts[1].imgURL}
+        phone= {contacts[1].phone}
+        email= {contacts[1].email}
       />
        <Card 
         name= {contacts[2].name}
-        imgURL="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
-        phone= "+123 456 789"
-        email= "b@beyonce.com"
+        imgURL={contacts[2].imgURL}
+        phone= {contacts[2].phone}
+        email= {contacts[2].email}
       />
     </div>
   );
