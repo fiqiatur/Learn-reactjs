@@ -35,6 +35,7 @@ body {
   top: 0;
   left: 0;
   display: flex;
+  box-sizing: border-box;
 }
 
 .name {
@@ -44,9 +45,17 @@ body {
   flex: 1;
   margin: 10% 20px 0;
 }
+.id{
+  color: #2d3436;
+  font-size: 21px;
+  z-index: 1;
+  position: absolute;
+  margin: 0 0 30px 15px;
+}
 
 .card img {
   margin: 30px 20px 0 0;
+  object-fit: cover;
 }
 
 .circle-img {
@@ -54,6 +63,7 @@ body {
   border: 7px solid #fff;
   width: 120px;
   height: 120px;
+  object-fit: cover;
 }
 
 .bottom {
